@@ -1,5 +1,5 @@
 
-var db = require('./db');
+var db = require('./db');  // NOTE THIS MUST BE A VAR SINCE REWIRE BEING USED ON IT
 
 function handleSignup(email, password) {
     // Check if the email exists
